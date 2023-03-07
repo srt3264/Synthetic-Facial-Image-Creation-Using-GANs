@@ -1,0 +1,12 @@
+pandas 
+jupyter
+scikit-learn
+numpy
+transformers
+datasets
+keras
+torch
+tensorflow
+matplotlib
+deeplake
+flask
