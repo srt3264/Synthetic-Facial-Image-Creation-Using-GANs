@@ -11,8 +11,8 @@ We train the baseline CNN and ResNet50 models on the original training set, and 
 
 
 Below is a diagram of the expetimental design. 
-(Team-8-Machine-Learning/graphs
-/Data.png)
+![Data](https://user-images.githubusercontent.com/110945807/233225312-4f75e4c4-0dfe-436c-a06b-3f2454d66d71.png)
+
 
 
 ## Results
