@@ -32,10 +32,20 @@ The baseline CNN model can be found at
 The code for retraining the RESNET model can be found at: 
 
 
-```Team-8-Machine-Learning/Classification_models/classification_model/resnet_final style.ipynb```
+DCgan: ```Team-8-Machine-Learning/Classification_models/classification_model/resnet_final dc.ipynb```
 
 
-```Team-8-Machine-Learning/Classification_models/classification_model/resnet_final dc.ipynb```
+Style GAN: ```Team-8-Machine-Learning/Classification_models/classification_model/resnet_final style.ipynb```
+
+
+The code for retraining the CNN model can be found at: 
+
+
+DCgan: ```Team-8-Machine-Learning/Classification_models/classification_model/CNN_baseline_augmented.ipynb```
+
+
+Style GAN: ```Team-8-Machine-Learning/Classification_models/classification_model/CNN_retrain_style_gan.ipynb```
+
 
 ## Acknowledgments
 This project was inspired by the FER2013 dataset and the work of several researchers in the field of emotion recognition from facial images. We thank the authors of the GAN models used for generating synthetic images, and the open-source community for providing resources and tools for deep learning research.
