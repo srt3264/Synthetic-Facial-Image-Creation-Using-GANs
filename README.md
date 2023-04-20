@@ -5,9 +5,18 @@ This project aims to build and evaluate convolutional neural network (CNN) and R
 The dataset used in this project is the FER2013 dataset, which contains 35,887 grayscale images of size 48x48 pixels, with seven emotional categories: anger, disgust, fear, happiness, sadness, surprise, and neutral. The dataset is divided into training, validation, and test sets, with respective sizes of 28,709, 3,589, and 3,589. We balance the 'disgust' category by creating synthetic images using two different GAN models.
 
 ## Models
-We build two different models for emotion recognition: a CNN and a ResNet50. The CNN consists of several convolutional and pooling layers, followed by fully connected layers and a softmax output layer. The ResNet50 is a deep residual network architecture that can learn more complex features than a traditional CNN, using skip connections that allow for better gradient flow during training.
+We build two different models for emotion recognition: a CNN and a ResNet50. The CNN consists of several convolutional and pooling layers, followed by fully connected layers and a softmax output layer. The ResNet50 is a deep residual network architecture that can learn more complex features than a traditional CNN, using skip connections that allow for better gradient flow during training. 
+
+The resnet50 model can be found at '''Team-8-Machine-Learning/Classification_models/classification_model/resnet_final-base.ipynb'''
+The CNN model can be found at '''Team-8-Machine-Learning/Classification_models/'''
 
 We train the baseline CNN and ResNet50 models on the original training set, and evaluate their performance on the validation and test sets. Then, we separately use a stylistic GAN and a DCgan to generate 4,000 synthetic images for the 'disgust' category. We train the two models separately on the combined original and synthetic data, and evaluate their performance on the same validation and test sets.
+
+The code for retraining the RESNET model can be found at: 
+'''Team-8-Machine-Learning/Classification_models/classification_model/resnet_final style.ipynb'''
+'''Team-8-Machine-Learning/Classification_models/classification_model/resnet_final dc.ipynb'''
+
+The code for retraining the CNN model can be found at: 
 
 
 Below is a diagram of the expetimental design. 
