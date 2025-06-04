@@ -1,6 +1,8 @@
 # Emotion Recognition from Facial Images using CNN and ResNet50 models
 This project aims to build and evaluate convolutional neural network (CNN) and ResNet50 models for recognizing emotions from facial images, using the seven emotional categories from the FER2013 dataset. The 'disgust' category is imbalanced, so we create synthetic images to balance the data. We first train a baseline CNN and a baseline ResNet50 model. Then, we use a stylistic GAN and a DCgan to separately prepare 4,000 images for the 'disgust' category. Finally, we use the 4,000 images from each GAN to retrain the two models separately and evaluate their performance.
 
+Find paper at: ```Synthetic-Facial-Image-Creation-Using-GANs/Paper - Emotion Recognition from Facial Images using CNN and ResNet50 models```
+
 ## Dataset
 The dataset used in this project is the FER2013 dataset, which contains 35,887 grayscale images of size 48x48 pixels, with seven emotional categories: anger, disgust, fear, happiness, sadness, surprise, and neutral. The dataset is divided into training, validation, and test sets, with respective sizes of 28,709, 3,589, and 3,589. We balance the 'disgust' category by creating synthetic images using two different GAN models.
 
